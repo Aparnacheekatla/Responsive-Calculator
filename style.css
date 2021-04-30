@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background:url( https://media.istockphoto.com/photos/abstract-geometric-background-raster-version-picture-id649202494?k=6&m=649202494&s=612x612&w=0&h=laVFcfK27mBYdNdLxesNr13jlkEHH1gc9zAgm1kusAA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    background: rgba(255, 255, 255, 0.034);
+}
+.heading{
+    margin-bottom: 50px;
+    font-size:60px;
+    font-weight:500;
+    text-shadow: 3px 3px beige;
+    
+}
+@media screen and (max-width:500px) {
+    .heading{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.411);
+    padding: 15px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+    border-color: black;
+}
+.clrbtn{
+    background: rgba(214, 255, 66, 0.979);
+}
+.clrbtn:hover{
+    background: rgb(255, 17, 0);
+    
+}
+ 
+.output{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.disp{
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-left: 1px;
+    margin-right: 4px;
+    font-size: 20px;
+    padding: 0px 10px;
+    width: 150px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.btns{
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgba(92, 205, 199, 0.952);
+    border-style: groove;
+}
+.btns:hover{
+    background-color: rgba(250, 237, 230, 0.137);
+}
+.opr{
+    background-color: rgba(255, 78, 202, 0.795);}
+.opr:hover{
+    background: rgb(255, 208, 0);
+}
